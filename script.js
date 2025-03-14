@@ -52,3 +52,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const checkoutForm = document.getElementById("checkoutForm");
+
+    if (checkoutForm) {
+        checkoutForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const name = document.getElementById("customerName").value;
+            const email = document.getElementById("customerEmail").value;
+            const address = document.getElementById("customerAddress").value;
+            const paymentMethod = document.getElementById("paymentMethod").value;
+
+            if (paymentMethod === "paypal") {
+                window.location.href = "https://www.paypal.com";
+            } else if (paymentMethod === "credit_card") {
+                alert("Credit Card payment processing is not set up yet.");
+            } else if (paymentMethod === "cashapp") {
+                window.location.href = "https://cash.app";
+            } else {
+                alert("Please select a valid payment method.");
+            }
+        });
+    }
+});
