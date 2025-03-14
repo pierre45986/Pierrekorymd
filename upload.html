@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Prescription - PierreKoryMedicine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="PierreKoryMedicine Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="upload.html">Upload Prescription</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="upload-box">
+        <h1>Upload Your Prescription</h1>
+        <form id="uploadForm">
+            <label for="prescriptionFile">Select Prescription File (PDF, JPG, PNG):</label>
+            <input type="file" id="prescriptionFile" accept=".pdf, .jpg, .jpeg, .png" required>
+            
+            <button type="submit">Upload</button>
+        </form>
+        <p>Accepted formats: PDF, JPG, PNG</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PierreKoryMedicine. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
