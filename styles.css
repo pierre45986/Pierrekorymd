@@ -207,3 +207,36 @@ select, .go-btn {
     border: none;
     cursor: pointer;
 }
+body {
+    background-color: white; /* Change blue to white */
+    color: black; /* Ensure text is readable */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    background-color: white; /* Ensure header is also white */
+}
+
+.navbar {
+    background-color: white; /* Ensure navigation bar is white */
+}
+
+.hero {
+    background-color: #005c5e; /* Keep hero section dark green */
+    padding: 50px;
+    color: white;
+}
+
+h1, p {
+    color: black; /* Ensure text is readable */
+}
+
+button {
+    background-color: #00cc99;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
