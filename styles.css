@@ -258,3 +258,21 @@ body {
 h1, h2, h3, p {
     color: white; /* Light text on green background */
 }
+/* Make the top section white */
+.header, .navbar, .menu-bar {
+    background-color: white !important;
+}
+
+/* Make the background below green */
+body {
+    background-color: #005F56; /* Adjust green shade if needed */
+}
+
+/* Ensure text is readable */
+.navbar a {
+    color: black; /* Dark text on white header */
+}
+
+h1, h2, h3, p {
+    color: white; /* Light text on green background */
+}
