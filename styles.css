@@ -161,3 +161,49 @@ body {
     background-color: #005c5e; /* Adjust to match */
     color: white; /* Ensure text is readable */
 }
+body {
+    background-color: #005c5e; /* Teal background */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+.login, .register {
+    background-color: white;
+    color: #005c5e;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+select, .go-btn {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.go-btn {
+    background-color: #00cc99;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
