@@ -240,3 +240,21 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+/* Make the header/nav white */
+.header, .navbar, .menu-bar {
+    background-color: white !important;
+}
+
+/* Make the main background green */
+body {
+    background-color: #005F56; /* Adjust green shade if needed */
+}
+
+/* Change text color for readability */
+.navbar a {
+    color: black; /* Dark text on white header */
+}
+
+h1, h2, h3, p {
+    color: white; /* Light text on green background */
+}
