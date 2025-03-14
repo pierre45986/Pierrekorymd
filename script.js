@@ -34,3 +34,21 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const uploadForm = document.getElementById("uploadForm");
+
+    if (uploadForm) {
+        uploadForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const fileInput = document.getElementById("prescriptionFile");
+
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                alert("Prescription uploaded: " + file.name);
+                window.location.href = "shop.html";  // Redirect to shop page after upload
+            } else {
+                alert("Please select a file before uploading.");
+            }
+        });
+    }
+});
