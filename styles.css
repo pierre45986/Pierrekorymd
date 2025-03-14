@@ -153,3 +153,7 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+.logo {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+}
