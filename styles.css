@@ -157,3 +157,7 @@ button:hover {
     width: 300px; /* Adjust as needed */
     height: auto;
 }
+body {
+    background-color: #005c5e; /* Adjust to match */
+    color: white; /* Ensure text is readable */
+}
