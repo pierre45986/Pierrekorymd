@@ -276,3 +276,28 @@ body {
 h1, h2, h3, p {
     color: white; /* Light text on green background */
 }
+/* Make the entire top section white */
+.header, .navbar, .menu-bar, .top-section {
+    background-color: white !important;
+}
+
+/* Ensure navigation links remain visible */
+.navbar a, .menu-bar a {
+    color: black !important;
+}
+
+/* Remove any padding or margins causing extra background color */
+.header, .navbar, .menu-bar {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Ensure the logo container doesn't apply unwanted background */
+.logo-container {
+    background-color: transparent !important;
+}
+
+/* Set the background below to green */
+.main-content, body {
+    background-color: #005F56 !important; /* Adjust green shade if needed */
+}
